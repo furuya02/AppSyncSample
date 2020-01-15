@@ -1,0 +1,6 @@
+target 'AppSyncSample' do
+  use_frameworks!
+  pod 'AWSAppSync', '~> 2.15.0'
+  pod 'KDCircularProgress'
+
+end

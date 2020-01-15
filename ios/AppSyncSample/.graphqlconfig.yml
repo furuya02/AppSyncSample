@@ -1,0 +1,15 @@
+projects:
+  AppSyncSample:
+    schemaPath: graphql/schema.json
+    includes:
+      - graphql/**/*.graphql
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: swift
+        generatedFileName: API.swift
+        docsFilePath: graphql
+        region: ap-northeast-1
+        apiId: phvebardyzdhxkm6iksrzc7t6m
+        maxDepth: 2

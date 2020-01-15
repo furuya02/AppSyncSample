@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target":"ES2018",
+    "module": "commonjs",
+    "lib": ["es2016", "es2017.object", "es2017.string"],
+    "declaration": true,
+    "strict": true,
+    "noImplicitAny": true, // 暗黙のAny
+    "strictNullChecks": true,// null チェック
+    "noImplicitThis": true,
+    "alwaysStrict": true,// use strict;
+    "noUnusedLocals": true, // 未使用変数
+    "noUnusedParameters": true,// 未使用引数
+    "noImplicitReturns": true,// 戻り値
+    "noFallthroughCasesInSwitch": false,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "experimentalDecorators": true,
+    "allowUnreachableCode": false,// 到達しないコード
+    "allowUnusedLabels": false,// 到達しないラベル
+    "strictPropertyInitialization":false,
+  }
+}

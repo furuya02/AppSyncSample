@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "デバッグ実行",
+            "program": "${workspaceRoot}/.vscode/drive.js",
+            "cwd": "${workspaceRoot}/",
+            "outFiles": [ "${workspaceRoot}/*.js" ], 
+            "env": {
+                "TZ": "Asia/Tokyo",
+                "IsLocal": "Yes",
+                "REGION": "ap-northeast-1",
+                "END_POINT": "https://xxxxxxxxx.appsync-api.ap-northeast-1.amazonaws.com/graphql",
+                "API_KEY": "xxxxxxx"
+            },
+            "args": [
+                "event.json",
+            ]
+        }
+    ]
+}
+

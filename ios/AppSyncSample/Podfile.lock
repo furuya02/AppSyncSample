@@ -1,0 +1,34 @@
+PODS:
+  - AWSAppSync (2.15.0):
+    - AWSCore (~> 2.12.0)
+    - ReachabilitySwift (~> 4.3.1)
+    - SQLite.swift (~> 0.12.2)
+  - AWSCore (2.12.5)
+  - KDCircularProgress (1.5.4)
+  - ReachabilitySwift (4.3.1)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+
+DEPENDENCIES:
+  - AWSAppSync (~> 2.15.0)
+  - KDCircularProgress
+
+SPEC REPOS:
+  trunk:
+    - AWSAppSync
+    - AWSCore
+    - KDCircularProgress
+    - ReachabilitySwift
+    - SQLite.swift
+
+SPEC CHECKSUMS:
+  AWSAppSync: 38d681c93c2909e7fb8d4e1d1f0e816684f9f64f
+  AWSCore: 543d1c281ad08401d0a99e181526aa529051a8ad
+  KDCircularProgress: 98200c6b8e85d22bc04eb644721d3b1e12b0686b
+  ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+
+PODFILE CHECKSUM: 8842b442da14b2d766828dac47fbf0a9c7543f15
+
+COCOAPODS: 1.8.4
